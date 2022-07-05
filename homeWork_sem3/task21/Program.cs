@@ -20,5 +20,5 @@ double Decision(double x1, double x2,
                    Math.Pow((z2-z1), 2));
 }
 
-double segmentLength =  Math.Round (Decision(x1, x2, y1, y2, z1, z2), 2 );
-Console.WriteLine($"Длина отрезка  {segmentLength}");
+double dlina_AB =  Math.Round (Decision(x1, x2, y1, y2, z1, z2), 2 );
+Console.WriteLine($"Длина отрезка  {dlina_AB}");
