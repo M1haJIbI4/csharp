@@ -8,18 +8,18 @@ int range = InputNum("Введите диапазон случайных чис�
 
 int[,] firstMartrix = new int[m, n];
 CreateArr(firstMartrix);
-Console.WriteLine($"\nПервая матрица:");
+Console.WriteLine($"Первая матрица:");
 WriteArr(firstMartrix);
 
 int[,] secondMartrix = new int[n, l];
 CreateArr(secondMartrix);
-Console.WriteLine($"\nВторая матрица:");
+Console.WriteLine($"Вторая матрица:");
 WriteArr(secondMartrix);
 
 int[,] resultMatrix = new int[m,l];
 
 MultiplMatrix(firstMartrix, secondMartrix, resultMatrix);
-Console.WriteLine($"Произведение 1 и 2 матриц:");
+Console.WriteLine($"Проиведение 1 и 2 матриц:");
 WriteArr(resultMatrix);
 
 void MultiplMatrix(int[,] firstMartrix, int[,] secondMartrix, int[,] resultMatrix)
